@@ -3,7 +3,11 @@
 # --------------------------------------
 
 menu:
-  # Home: / || fas fa-home
+   Home: / || fas fa-home
+   追番: /bangumis/index.html || fas fa-home
+   HelloWorld!: /bangumis/index.html || fas fa-home
+   方法论: /bangumis/index.html || fas fa-home
+   友人帐: /bangumis/index.html || fas fa-home
   # Archives: /archives/ || fas fa-archive
   # Tags: /tags/ || fas fa-tags
   # Categories: /categories/ || fas fa-folder-open
@@ -802,7 +806,7 @@ pjax:
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
+  enable: true
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
@@ -828,7 +832,7 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   field: site # site/post
   placeholder:
   blur: false
@@ -858,7 +862,8 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-    # - <script src="xxxx"></script>
+    # aplayer音乐
+    - <div class="aplayer no-destroy" data-id="159562827" data-server="netease" data-type="playlist"   data-order="list" data-fixed="true" data-preload="auto" data-autoplay="false" data-mutex="true" ></div>
 
 # CDN
 # Don't modify the following settings unless you know how they work
