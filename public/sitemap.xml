@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://cagedbird.top/manifest.json</loc>
+    
+    <lastmod>2022-09-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://cagedbird.top/posts/d87f7e0c.html</loc>
     
     <lastmod>2022-08-29</lastmod>
