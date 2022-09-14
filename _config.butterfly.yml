@@ -3,21 +3,23 @@
 # --------------------------------------
 
 menu:
-   Home: / || fas fa-home
-   HelloWorld!: /bangumis/index.html || fas fa-home
-   方法论: /bangumis/index.html || fas fa-home
-   友人帐: /bangumis/index.html || fas fa-home
-   追番: /bangumis/index.html || fas fa-home
-   留言板: /comments/ || fas fa-envelope
+  首页: / || fas fa-home
+  HelloWorld!|| fas fa-folder-open:
+  #  List||fas fa-list:
+   /algo: /archives/ || fas fa-lightbulb-o
+   /java: /archives/ || fas fa-code
+   /ood: /archives/ || fas fa-cog fa-spin
+   /web: /archives/ || fas fa-globe
+   /sys: /archives/ || fas fa-laptop
+  方法论: /bangumis/index.html || fas fa-calendar
+  友人帐: /bangumis/index.html || fas fa-link
+  追番: /bangumis/index.html || fas fa-video
+  留言板: /comments/ || fas fa-envelope
+  关于笔者: /me/ || fas fa-address-card
 
   # Archives: /archives/ || fas fa-archive
   # Tags: /tags/ || fas fa-tags
-  # Categories: /categories/ || fas fa-folder-open
-   List||fas fa-list:
-     Music: /music/ || fas fa-music
-     Movie: /movies/ || fas fa-video
-  # Link: /link/ || fas fa-link
-  # About: /about/ || fas fa-heart
+
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -82,11 +84,12 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: /img/flash.png
 
 # Avatar (頭像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+  # img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+  img: /img/profilephoto.jpg
   effect: false
 
 # Disable all banner image
@@ -665,7 +668,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/Amoredc
   card_announcement:
     enable: true
     content: This is my Blog
@@ -723,7 +726,7 @@ newest_comments:
 
 # Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
-  enable: false
+  enable: true
   # The text of a button
   default: 繁
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
@@ -1054,6 +1057,8 @@ inject:
   head:
     #自定义css
     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
+    - <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # aplayer音乐
