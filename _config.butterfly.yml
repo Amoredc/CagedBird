@@ -6,13 +6,14 @@ menu:
   首页: / || fas fa-home
   HelloWorld!|| fas fa-folder-open:
   #  List||fas fa-list:
-   /algo: /archives/ || fas fa-lightbulb-o
-   /java: /archives/ || fas fa-code
-   /ood: /archives/ || fas fa-cog fa-spin
-   /web: /archives/ || fas fa-globe
-   /sys: /archives/ || fas fa-laptop
-  方法论: /bangumis/index.html || fas fa-calendar
-  友人帐: /bangumis/index.html || fas fa-link
+   /algo: /HelloWorld!/algo/ || fas fa-puzzle-piece
+   /java: /HelloWorld!/java/ || fas fa-terminal
+   /ood: /HelloWorld!/ood/ || fas fa-cog fa-spin
+   /sys: /HelloWorld!/sys/ || fas fa-laptop
+   /web: /HelloWorld!/web/ || fas fa-globe
+  方法论: /methodology/ || fas fa-calendar
+  星河酒馆: /tavern/ || fas fa-eye-slash
+  友人帐: /friends/ || fas fa-link
   追番: /bangumis/index.html || fas fa-video
   留言板: /comments/ || fas fa-envelope
   关于笔者: /me/ || fas fa-address-card
@@ -1056,8 +1057,9 @@ gitcalendar:
 inject:
   head:
     #自定义css
-    - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
-    - <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    - <link rel="stylesheet" href="/css/·.css" media="defer" onload="this.media='all'">
+    # - <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    # - <link rel="stylesheet" href="source/font-awesome/css/font-awesome.min.css">
 
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
